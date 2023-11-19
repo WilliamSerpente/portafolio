@@ -1,0 +1,404 @@
+/* VERDE #29D987
+   ROJO  #D94029 */
+   @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk&display=swap');
+
+   
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+.container-fluid {
+    padding: 60px 50px;
+    background-color: rgb(19, 19, 19);
+  }
+
+.bg-gray{
+    background-color: #242424;
+}
+.bg-green{
+    background-color: rgb(43, 218, 136) ;
+}
+.color-green{
+    color: rgb(43, 218, 136);
+}
+.footer-brown{
+    color: rgb(43, 218, 136);
+    background-image: linear-gradient(rgba(7, 34, 21, 0.9) ,rgba(18, 93, 58, 0.9) ), url(../img/footer.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+
+.header{
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(../img/header.jpg);
+}
+.header-text{
+    margin-top: 100px;
+}
+
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 84px;
+    color: whitesmoke;
+}
+h2{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 38px;
+
+}
+h3{
+ font-family: 'Bebas Neue', sans-serif;
+ color: rgb(186, 186, 186);
+}
+h4{
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(186, 186, 186);
+}
+p{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: whitesmoke;
+}
+span{
+    color: #29D987;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.spanWhite{
+    color: whitesmoke;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.col-md-4 ul li{
+    font-size: 20px;
+    color: #29D987;
+    margin: 15px 0px;
+}
+.col-md-4 ul{
+    
+    text-align: left;
+    list-style-position: inside;
+}
+button{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color: #29D987;
+    background-color: rgb(19, 19, 19);
+    border: 2px solid #29D987;
+    border-radius: 2px;
+    padding: 10px 12px;
+    margin: 8px 0px;
+}
+button:hover{
+    color: rgb(19, 19, 19);
+    background-color: #29D987;
+}
+
+a :hover,.enlace:hover{
+  color: #29D987;
+  text-decoration: none;
+}
+a:focus,.enlace:focus{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navbar-brand h2:hover{
+    color: whitesmoke;
+}
+hr{
+    border: none;
+    background-color: #29D987;
+    color: #29D987;
+    height: 3px;
+    width: 80%;
+    margin: auto;
+    
+}
+img{
+    margin: 10px 0px;
+}
+.img-rounded{
+    border: 3px solid #29D987;
+    box-shadow: 1px 1px 5px black;
+}
+
+.card-title{
+    font-size: 32px;
+}
+.card{
+    background-color: #29D987;
+    padding: 5% 3%;
+    margin: 20px 0px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+}
+.card:hover{
+ transform: scale(1.05);
+ box-shadow: 10 10px 10px black;
+}
+.card a, .card a i{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #543a21;
+    font-size: 24px;
+}
+
+.boton{
+    background-color: #242424;
+    width: 100%;
+    font-size: 20px;
+  }
+
+.thumbnail{
+    border-color: #29D987;
+}
+
+.icono{
+    font-size: 64px;
+    color: #29D987;
+}
+
+.navbar {  
+    margin-bottom: 0;
+    background-color: #242424;
+    border: 0;
+    font-size: 18px !important;
+    z-index: 9999;
+    line-height: 1.42857143; 
+    letter-spacing: 2px; 
+    border-radius: 0;
+    justify-content: center;
+  }
+  .icon-bar{
+    background-color: white!important;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: whitesmoke !important ;
+    font-family: 'Bebas Neue', sans-serif !important; 
+  }
+  .navbar-nav li a:hover{
+    color: #29D987 !important; 
+    background-color: #242424!important;
+  }
+  .navbar-nav li.active a{
+    color: #29D987 !important; 
+    background-color: #242424  !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #29D987 !important;
+  }
+
+  .lista-beneficios ul li{
+    font-size: 20px;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    color: #543a21;
+    margin-left: 5%;
+  }
+
+  label{
+    font-family: 'Space Grotesk', sans-serif;
+    color: #29D987;
+    margin: 8px 0px;
+  }
+
+  textarea{
+    resize: vertical;
+    margin-bottom: 4%;
+  }
+
+
+ footer a,.color-white{
+  color: whitesmoke;
+ }
+
+ footer a{
+  font-size: 15px;
+ }
+ footer ul li{
+  padding-top: 5px;
+ }
+
+
+ .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+ }
+.overlay i{
+    font-size: 64px;
+}
+ .overlay:hover{
+opacity: .7;
+ }
+ .texto-overlay{
+    color: white;
+    margin-top: 150px
+ }
+ 
+/** Animaciones */
+ .slide {
+   animation-name: slide;
+   -webkit-animation-name: slide;
+   animation-duration: 1s;
+   -webkit-animation-duration: 1s;
+   visibility: visible;
+ }
+ @keyframes slide {
+   0% {
+     opacity: 0;
+     transform: translateX(-20%);
+   } 
+   100% {
+     opacity: 1;
+     transform: translateX(0%);
+   }
+ }
+ @-webkit-keyframes slide {
+   0% {
+     opacity: 0;
+     -webkit-transform: translateX(-20%);
+   } 
+   100% {
+     opacity: 1;
+     -webkit-transform: translateX(0%);
+   }
+ }
+
+ .slideup {
+  animation-name: slideup;
+  -webkit-animation-name: slideup;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+@keyframes slideup {
+  0% {
+    opacity: 0;
+    transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@-webkit-keyframes slideup {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 1200px) {
+
+.parallax1{
+    height: 500px;
+}    
+  
+  .header h1 img {
+    width: 130px !important;
+    margin-left: -10px;
+  }
+  .header h1 {
+
+    margin-top: 140px;
+    font-size: 72px;
+  }
+  .header h3{
+    font-size: 32px;
+    margin-top: -90px;
+    margin-left: -20px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+  
+  .cafemano img{
+    display: none !important;
+  }
+  .creador img{
+    position: absolute;
+    left: 0px;
+    width: 200px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .centerText{
+    height: 350px;
+  }
+  .centerText h1{
+    font-size: 38px;
+  }
+
+  .card img{
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  
+    hr{
+        width: 100%;
+        margin: auto;
+        
+    }    
+.parallax1{
+    height: 400px;
+}    
+.header{
+        height: 350px;
+}
+  .cafemano img{
+    display: none !important;
+  }
+  
+  .header h1 img {
+    width: 100px !important;
+    margin-left: -10px;
+  }
+  .header h1 {
+
+    margin-top: 105px;
+    font-size: 58px;
+  }
+  .header h3{
+    font-size: 24px;
+    margin-top: -90px;
+    margin-left: -20px;
+  }
+}
+
+/* Quien pudiera tomarse un cafecito con Richard Añez pa despues amanecer en el Ventarron */
