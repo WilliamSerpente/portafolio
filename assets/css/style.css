@@ -97,11 +97,6 @@ button{
     padding: 10px 12px;
     margin: 8px 0px;
 }
-button:hover{
-    color: rgb(19, 19, 19);
-    background-color: #29D987;
-}
-
 a :hover,.enlace:hover{
   color: #29D987;
   text-decoration: none;
@@ -109,6 +104,10 @@ a :hover,.enlace:hover{
 a:focus,.enlace:focus{
   color: whitesmoke;
   text-decoration: none;
+}
+button:hover, .header-text a:hover{
+  color: rgb(19, 19, 19);
+  background-color: #29D987;
 }
 .navbar-brand h2:hover{
     color: whitesmoke;
@@ -309,96 +308,128 @@ opacity: .7;
 }
 
 /* RESPONSIVENESS */
-
 @media screen and (max-width: 1200px) {
 
-.parallax1{
-    height: 500px;
-}    
   
-  .header h1 img {
-    width: 130px !important;
-    margin-left: -10px;
+  #proyectos img{
+    width:  400px;
   }
-  .header h1 {
 
-    margin-top: 140px;
-    font-size: 72px;
+}
+
+@media screen and (max-width: 994px) {
+
+  .header img{
+    height: 350px;
+    margin-top: -200px;
+    margin-left: 350px;
   }
-  .header h3{
-    font-size: 32px;
-    margin-top: -90px;
-    margin-left: -20px;
-  }
+
+ .header-text{
+  margin-left: -370px;
+ } 
+.header-text h1 {
+font-size: 48px;
+}
+
+.header-text h3{
+font-size: 18px;
+
+}
 
 
 }
 
 @media screen and (max-width: 768px) {
   p {
-    font-size: 16px;
+    font-size: 18px;
   }
   
-  .cafemano img{
-    display: none !important;
-  }
-  .creador img{
-    position: absolute;
-    left: 0px;
-    width: 200px;
-  }
-
-  h1 {
-    font-size: 25px;
-  }
-  h4 {
-    font-size: 20px;
-  }
-  .centerText{
-    height: 350px;
-  }
-  .centerText h1{
-    font-size: 38px;
-  }
-
-  .card img{
-    height: 100%;
+  hr{
     width: 100%;
-  }
+    margin: auto;
+    
+}    
+.header-text{
+  margin-top: 40px;
+  margin-left: 0px;
+ } 
+
+img{
+  width: 200px;
+}
+#programas img{
+  height: 200px;
+}
+#proyectos img{
+  width: 300px;
+}
+#sobre img{
+  height: 400px;
+  width: 300px;
+}
+.header{
+    height: 350px;
+    background-image: none;
+   }
+
+.header img {
+display: none;
+}
+.header-text h1 {
+position: relative;
+/* top: -110px; */
+font-size: 38px;
+}
+.header-text h3{
+font-size: 24px;
+
+}
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
   
+  p {
+    font-size: 16px;
+  }
     hr{
         width: 100%;
         margin: auto;
         
     }    
-.parallax1{
-    height: 400px;
-}    
+img{
+  width: 200px;
+}
+#programas img{
+  height: 200px;
+}
+#proyectos img{
+  width: 300px;
+}
+#sobre img{
+  height: 400px;
+  width: 300px;
+  margin: 5px 0px;
+  padding: 0px 0px;
+}
+
 .header{
         height: 350px;
-}
-  .cafemano img{
-    display: none !important;
-  }
-  
-  .header h1 img {
-    width: 100px !important;
-    margin-left: -10px;
-  }
-  .header h1 {
+        background-image: none;
+       }
 
-    margin-top: 105px;
-    font-size: 58px;
+  .header img {
+    display: none;
   }
-  .header h3{
+  .header-text h1 {
+
+    font-size: 38px;
+  }
+  .header-text h3{
     font-size: 24px;
-    margin-top: -90px;
-    margin-left: -20px;
+
   }
 }
 
-/* Quien pudiera tomarse un cafecito con Richard Añez pa despues amanecer en el Ventarron */
+/* Con este curriculum me contratan para hacerle mantenimiento al sistema Patria */
