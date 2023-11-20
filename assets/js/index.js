@@ -45,7 +45,7 @@ function enviarMensaje() {
         console.log("Tu nombre es: " + nombre);
         console.log("Tu corrreo es: " + correo);
         console.log("Tu mensaje es: " + mensaje);
-        document.getElementById("respuesta").innerHTML = `<h2 class="color-white">Muchas gracias por tu mensaje <span>${nombre}</span>! Enviaremos una respuesta en breves a <span>${correo}</span>.</h2>`;
+        document.getElementById("respuesta").innerHTML = `<h2 class="color-white">Muchas gracias por tu mensaje <span>${nombre}</span>! Te enviaré una respuesta en breves a <span>${correo}</span>.</h2>`;
     
         document.getElementById("mensajeID").value = "";
         document.getElementById("nombreID").value = "";
